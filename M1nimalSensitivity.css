@@ -1,0 +1,38 @@
+/* ==UserStyle==
+@name           M1nimal Sensitivity
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    M1nimal UI.
+@author         M1n-4d316e
+==/UserStyle== */
+@-moz-document domain("mouse-sensitivity.com") {
+    #ipsLayout_header {
+        display: none;
+    }
+    .ta_SNcontainer {
+        display: none;
+    }
+    center {
+        display: none;
+    }
+    .ipsWidget.ipsWidget_vertical.ipsBox.hidemessage {
+        display: none;
+    }
+    .footer-wrap {
+        display: none;
+    }
+    .ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover {
+        display: none;
+    }
+    .ipsBreadcrumb.ipsBreadcrumb_bottom.ipsFaded_withHover {
+        display: none;
+    }
+    .ta_wrapperContent {
+        background: none;
+    }
+    :root {
+        --ta-header-height: 0px;
+        --ta-sidebar-width: 0px;
+        --ta-sidebar-width-min: 0px;
+    }
+}
