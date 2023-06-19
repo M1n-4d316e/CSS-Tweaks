@@ -4,7 +4,7 @@
 @namespace    ?
 ==/UserStyle== */
 
-@-moz-document url("https://m1n.duckdns.org/#/") {
+@-moz-document url("http://casaos.local/#/") {
 .swiper-container.swiper-container-initialized.swiper-container-horizontal {
     display: none;
 }
