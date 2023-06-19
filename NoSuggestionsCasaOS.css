@@ -1,0 +1,11 @@
+/* ==UserStyle==
+@name         No suggestions
+@version      20230619.15.28
+@namespace    ?
+==/UserStyle== */
+
+@-moz-document url("https://m1n.duckdns.org/#/") {
+.swiper-container.swiper-container-initialized.swiper-container-horizontal {
+    display: none;
+}
+}
